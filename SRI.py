@@ -64,8 +64,8 @@ ftp.quit()
 
 #Enviamos el correo
 def send_email(to_email, subject, content_html, content_text):
-        gmail_user = 'samuel.herrera.m@gmail.com'
-        gmail_password = 'dkkdnofhdsowukyv'
+        gmail_user = ''
+        gmail_password = ''
 
         msg = MIMEMultipart("alternative")
         msg['From'] = gmail_user
