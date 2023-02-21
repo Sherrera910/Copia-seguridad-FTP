@@ -10,7 +10,7 @@ from datetime import datetime
 #pdb.set_trace()
 
 #Para ejecutar 10 veces el script, solo de prueba luego quitar.
-noseque = input()
+#noseque = input()
 
 # configurar servidor FTP
 ftp_server = "192.168...."
@@ -26,7 +26,7 @@ local_dir1 = './'
 #nombre del archivo de copia de seguridad
 now = datetime.now()
 backup_archivo = f'backup{now.year}{now.month}{now.day}'
-backup_archivo += noseque
+#backup_archivo += noseque
 
 #comprimir el directorio local
 shutil.make_archive(backup_archivo, 'zip', local_dir, local_dir1)
