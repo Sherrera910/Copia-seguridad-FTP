@@ -13,12 +13,12 @@ from datetime import datetime
 noseque = input()
 
 # configurar servidor FTP
-ftp_server = "192.168.1.143"
-ftp_username = "pi"
-ftp_password = "usuario112"
+ftp_server = "192.168...."
+ftp_username = "***"
+ftp_password = "***"
 
 # directorio local a copiar
-local_dir = '/home/pi/HDD/Series/Lain'
+local_dir = '/home/pi/...'
 
 #(directorio desde donde comenzamos a archivar)
 local_dir1 = './'
