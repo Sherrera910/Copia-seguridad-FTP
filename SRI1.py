@@ -1,3 +1,14 @@
+#####################################################
+#                                                   #
+#                  Samuel Herrera                   #
+#                                                   #
+#                Copia-seguridad-FTP                #
+#                                                   #
+#                                                   #
+#                                                   #
+#                                                   #
+#####################################################
+
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
