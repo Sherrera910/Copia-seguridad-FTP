@@ -86,6 +86,6 @@ def send_email(to_email, subject, content_html, content_text):
         server.close()
         print("El correo electrónico se ha enviado exitosamente.")
 
-send_email(to_email='samuel.herrera.m@gmail.com', subject='subject', content_html='<p>La copia de seguridad se ha hecho exitosame>')
+send_email(to_email=gmail_user, subject='subject', content_html='<p>La copia de seguridad se ha hecho exitosame>')
 
 
